@@ -22,13 +22,15 @@ public class TempPaymentUploadController {
 	@Autowired
 	OpportunityRepository opportunityRepository;
 
-	/*
-	 * @GetMapping("/tktNo/ticketNo") public String
-	 * getPaymentByTicketId(@RequestParam(value = "id") String ticketNo) {
-	 * 
-	 * List<TempPaymentUpload> adjustedTPUList =
-	 * tempPaymentUploadService.findByTicketId(ticketNo);
-	 * 
-	 * return "Succesfully Record Inserted"; }
-	 */
+	
+	  @GetMapping("/tktNo/ticketNo") public String
+	  getPaymentByTicketId(@RequestParam(value = "id") String ticketNo) {
+	  
+	  //List<TempPaymentUpload> adjustedTPUList =
+	  //tempPaymentUploadService.findByTicketId(ticketNo);
+	  
+	  return ""; 
+	  
+	  }
+	 
 }
